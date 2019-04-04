@@ -12,6 +12,7 @@ powerDT[, dateTime := as.POSIXct(paste(Date, Time), format = "%d/%m/%Y %H:%M:%S"
 # Filter Dates for 2007-02-01 and 2007-02-02
 powerDT <- powerDT[(dateTime >= "2007-02-01") & (dateTime < "2007-02-03")]
 
+# Create the png file of plot 2
 png("plot2.png", width=480, height=480)
 
 ## Plot 2
